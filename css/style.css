@@ -9,10 +9,15 @@ video {
   padding: 0;
 }
 
-
-.thumbnail:hover {
+.floating {
+position:relative;
+left:400px;
+top:100px;
+float:right;
+}
+.thumbnail{
     position:relative;
-    top:0px;
+    top:-10px;
     left:150px;
     width:428px;
     height:auto;
@@ -35,6 +40,14 @@ body {
   z-index: 2;
   margin: 0 auto;
   max-width: 720px;
+  text-align: left;
+}
+
+.socialmedia {
+  padding: -12px 500px;
+  z-index: 2;
+  margin: 0 auto;
+  max-width: 720px;
   text-align: center;
 }
 
@@ -51,6 +64,10 @@ body {
 }
 
 .content__news {
+  top:-700px;
+  position:relative;
+  left:-300px;
+  float:left;
   margin-bottom: 24px;
   color: white;
   font-size: 20px;
