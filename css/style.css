@@ -45,7 +45,9 @@ body {
 
 .socialmedia {
   position:relative;
-  float:left;
+  float:right;
+  top:-900px;
+  left:250px;
   margin: 0 auto;
   text-align: center;
 }

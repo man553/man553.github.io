@@ -42,11 +42,12 @@
 	<img src="media/sugoitts.png" width="640" height=auto class="floating"/>
   <p class="content__news">SRB2 2.1.25 release<br>Rob Tisdell - August 17, 2019<br>Hey all!<br><br>Sorry, this isn’t 2.2. We found a couple major issues that prevented certain mods from working, as well as patched over a few netcode exploits. We deemed these important enough to make a new patch for 2.1, because a fantastic mod was made that’s dependent on these. After you download the patch, you should head on over to the KIMOKAWAIII release thread and download that. It’s a massive mod made from various members of the community and has tons of new content for you to play through. It’s well worth your while.<br><br>As an update, we are working hard on getting 2.2 together and are building internal betas. We are not quite at the RC stage yet, but we’re getting there, and a whole bunch of stuff we didn’t think we’d actually polish has been getting some serious attention while we wait on the last few major components for the game. Also, because we always do this, changelog:<br><br>* Fixed APNG movies in OpenGL recording the game as completely black.<br>* Fixed FOF with slopes glitching very briefly at level load.<br>* Fixed PK3 folders being accidentally loaded as textures, which caused crashes sometimes.<br>* Fixed the game reading data from past the expected end of per-level colormaps, which could cause crashes somtimes. This happened if you made the colormap with some external program that decided to append some text to the end of the lump to tell you how it was made.<br>* In netgames, only the server or admins are allowed to skip credits now.<br>* Fixed several PolyObject physics issues:<br>** If you were standing on a PolyObject following waypoints, walking off its edge teleported you to the ground.<br>** Sometimes you could collide with thin air below or above some PolyObjects.<br>** PolyObjects spawned with the Crush Spawn point weren’t able to crush you properly sometimes.<br>* Fixed an exploit where players could steal the final hash of a login.<br>* Fixed ERZ3 and Pipe Towers Zone spitting console errors on being loaded.<br><br></p>
 
-</div><!-- /content -->
 <div class="socialmedia">
  <a href="https://twitter.com/sonicteamjr" class="content__cta">Twitter</a>
  <a href="https://github.com/STJr" class="content__cta2">GitHub</a>
 </div>
+
+</div><!-- /content -->
 
 <video id="my-video" class="video" muted loop>
   <source src="media/srb2.mp4" type="video/mp4">
